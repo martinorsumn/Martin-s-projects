@@ -1,0 +1,595 @@
+# images
+long_string1 = '''⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⣤⣴⣦⣤⣤⣤⣤⣤⣤⡄⢠⣤⣤⣤⠀⠀⠀⠀⠀⠀⠀⠀⣤⣤⡄⠀⢠⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⢸⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⡇⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⡇⠶⠀⠀⠀⢸⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⡇⠀⢸⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⡇⠀⠀⠀⠀⢸⣿⣿⣷⣀⣤⣤⣤⣤⣤⣤⣠⣿⣿⡇⠀⢸⣿⣿⣧⣀⣀⣀⣀⣠⣤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⡇⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⡇⠀⠀⠀⠀⢸⣿⣿⡏⠉⠀⠀⠀⠀⠉⠉⠉⣿⣿⡇⠀⢸⣿⣿⡇⠀⠀⠀⠀⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⡇⠀⠀⠀⠀⢸⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⡇⠀⢸⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⡇⠀⠀⠀⠀⢸⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣇⠀⢸⣿⣿⣷⣶⣶⣶⣶⣶⣶⡶⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠿⠿⠇⠀⠀⠀⠀⠸⠿⠿⠷⠀⠀⠀⠀⠀⠀⠀⠀⣿⠿⠟⠀⠸⠿⠿⠿⠿⠿⠿⠿⣿⠿⠿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣿⣷⣶⠀⠀⠀⠀⢀⣤⣴⣾⣿⣿⣿⣶⣶⣄⡀⠀⠀⠀⢰⣶⣾⡇⠀⠀⠀⠀⠀⠀⣶⣾⣿⠀⢸⣿⣶⣶⣿⣿⣿⣶⣶⣦⣀⠀⠀⠀⠀⣿⣶⣶⣆⠀⠀⠀⠀⠀⠀⠀⣶⣶⣿⠀⢰⣿⣶⣿⣿⣿⣿⣿⣿⣿⣿⡆⢿⣷⣶⣦⠀⠀⠀⠀⠀⢠⣶⣶⣿⠷
+⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡆⠀⢀⣴⣿⣿⣿⡿⠿⠛⠿⢿⣿⣿⣿⣦⠀⠀⢸⣿⣿⡇⠀⠀⠀⠀⠀⠀⣿⣿⣿⠀⢸⣿⣿⡟⠛⠛⠛⠿⢿⣿⣿⣦⠀⠀⠀⣿⣿⣿⣿⣧⡀⠀⠀⠀⠀⠀⣿⣿⣿⣠⢸⣿⣿⣿⠛⠛⠛⠛⠛⠛⢻⡇⠈⢿⣿⣿⣧⡀⠀⠀⣴⣿⣿
+⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⠁⠀⣾⣿⣿⡿⠁⠀⠀⠀⠀⠀⠈⢻⣿⣿⣷⠀⢸⣿⣿⡇⠀⠀⠀⠀⠀⠀⣿⣿⣿⠀⢸⣿⣿⡇⠀⠀⠀⠀⠀⣿⣿⣿⠀⠀⠀⣿⣿⣿⣿⣿⣷⣄⠀⠀⠀⠀⣿⣿⣿⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣷⣄⣼⣿⣿⡿⠇⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⠀⢸⣿⣿⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣇⣸⣿⣿⡇⠀⠀⠀⠀⠀⠀⣿⣿⣿⠀⢸⣿⣿⣷⣤⣶⣶⣤⣾⣿⣿⣿⡇⠀⠀⣿⣿⣿⣾⢿⣿⣿⣧⡀⠀⠀⣿⣿⣿⠀⢸⣿⣿⣿⣶⣶⣶⣶⣶⣶⠀⠀⠀⠀⠀⠙⣿⣿⣿⣿⣿⡟⠁⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⡆⢸⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⣿⡿⢿⣿⣿⡇⠀⠀⠀⠀⠀⠀⣿⣿⣿⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⡿⠛⠀⠀⠀⠀⣿⣿⣿⣿⠀⠻⣿⣿⣷⣄⠀⣿⣿⣿⠀⢸⣿⣿⣿⠿⠿⠿⠿⠿⠿⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⡏⠁⠀⠀⠀⠀
+⠀⠀⣀⠀⠀⠀⠀⣿⣿⣿⣧⠸⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⠁⠸⣿⣿⣧⠀⠀⠀⠀⠀⢠⣿⣿⣿⠀⢸⣿⣿⡇⠀⠈⠻⣿⣿⣷⣄⠀⠀⠀⠀⣿⣿⣿⡟⠀⠀⠙⢿⣿⣿⣦⣿⣿⣿⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⠃⠀⠀⠀⠀⠀
+⢾⣿⣿⣦⡀⢀⣰⣿⣿⣿⣿⠀⠹⣿⣿⣿⣦⣀⠀⠀⠀⣀⣴⣿⣿⣿⠏⠀⠀⢿⣿⣿⣦⡀⠀⠀⣠⣿⣿⣿⡇⠀⢸⣿⣿⡇⠀⠀⠀⠙⢿⣿⣿⣦⡀⠀⠀⣿⣿⣿⠀⠀⠀⠀⠈⢻⣿⣿⣿⣿⣿⠀⢸⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⠀⠀⠀⠀⠀⠀
+⠈⢿⣿⣿⣿⣿⣿⣿⣿⠋⠀⠀⠀⠉⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠋⠀⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⢸⣿⣿⣇⠀⠀⠀⠀⠈⢻⣿⣿⣿⣤⡄⣿⣿⣿⣤⠀⠀⠀⠀⠀⠙⢿⣿⣿⣿⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀⣿⣿⣿
+⠀⠀⠈⠙⠛⠛⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠛⠛⠛⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠛⠛⠛⠛⠉⠀⠀⠀⠀⠘⠛⠛⠛⠀⠀⠀⠀⠀⠀⠙⠛⠛⠛⠃⠛⠛⠛⠛⠀⠀⠀⠀⠀⠀⠈⠛⠛⠛⠀⠈⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠃⠀⠀⠀⠀⠀⠙⠛⠛⠉⠀⠀⠀⠀⠀'''
+#imports
+import time
+import random
+import sys
+from types import EllipsisType
+
+#variables for player
+player_hp = 100
+iron_stats = {"speed": 6, "protection": 10}
+leather_stats = {"protection": 6, "speed": 8}
+
+#keeps tracks of what the monster drops
+monster_dropped = 0
+
+player_items = []
+armor_list = ["iron", "leather", "gold"]
+
+
+#functions
+
+# Adds a delay
+def print_wd(message): 
+    type_print(message)
+    print()
+    time.sleep(1.0)
+
+# creates italic text for narration
+def print_italic(message):
+    print_wd(f"\033[3m{message}\033[0m")
+
+# adds typewriter effect to input statement 
+def input_vil(prompt):
+    return input_wd(prompt)
+
+def input_wd(prompt):
+    type_print(prompt)
+    return input()
+    
+
+# adds a delay every time something is printed.
+def type_print(message, delay=0.03):
+    for char in message:
+        sys.stdout.write(char)
+        sys.stdout.flush()
+        time.sleep(delay)
+    print()
+
+#monster run
+def escape(armor):
+    if armor == 'iron':
+        chance = 0.4 
+    elif armor == 'leather':
+        chance = 0.6 
+    else:
+        chance = 0.99  # no armor - run free lil man
+
+    if random.random() < chance:
+        return True
+    else:
+        return False
+
+# how the player loses health when encountering a monster
+def check_health(armor):
+    if armor == 'iron':
+        chance = 0.6  # 60% chance
+    elif armor == 'leather':
+        chance = 0.5  # 50% chance of damaging the player
+    else:
+        chance = 0.3  # no armor - ur cooked lil bro
+
+    if random.random() < chance:
+        return True
+    else:
+        return False
+        
+breakpoint
+
+# print(long_string1) 
+# print_wd('Hello! I am Marquis, and will be guiding you on your quest through Scarsalide, to find the hidden treasures in the Scarloth Kingdom')
+# print_wd('Are you ready for your journey to begin?')
+# while True:  # Loop indefinitely until correct input is provided
+#     answer = input_wd('yes or no?').lower()
+#     if answer == 'yes':
+#         print_wd('you answered yes, amazing!')
+#         time.sleep(1)
+#         break 
+#     elif answer == 'no':
+#         print_wd('you answered no, good bye!')
+#         quit()
+#     else:
+#         print_wd('you did not answer yes or no, please try again')
+
+# # getting user name
+# first_name = input_wd('Whats your first name')
+# last_name = input_wd('Whats your last name')
+# full_name = first_name + " " + last_name
+# print(f"Hello, {full_name}")
+
+# #game explanation and choosing starter stats
+# print_wd('before we get started, you need to choose what armor and weapon your taking on your journey! \nYou start with 100 health points.')
+# print_wd('the iron armor provides great health for your journey, to defend against any obstacles in your way.')
+# print_wd('the leather armor increases speed, allowing one to run from their enemies.')
+# while True:
+#     answer = input_wd('iron or leather?').lower()
+#     if answer in ['iron', 'iron armor']:
+#         print_wd('you answered iron, here are your stats!')
+#         print(iron_stats)
+#         armor = 'iron'
+#         player_items.append(armor)
+#         break
+#     elif answer in ['leather', 'leather armor']:
+#         print_wd('you answered leather, here are your stats!')
+#         print(leather_stats)
+#         armor = 'leather'
+#         player_items.append(armor)
+#         break
+#     else: 
+#         print_wd('please input either leather or iron.')
+# # choosing weapon
+# print_wd("now that you have chosen your armor, you can choose your weapon!")
+# print_wd("the algonak sword is a sword with great power, 10 to 15 damage with a slow attack speed.")
+# print_wd("the zortek dual blades provides 8 to 18 damage by getting multiple hits in one attack .")
+# while True:
+#     answer = input_wd('sword or blades?').lower()
+#     if answer in ['algonak sword', 'sword', 'algonak']:
+#         print_wd('you answered algonak sword, right on!')
+#         weapon = 'algonak sword'
+#         player_items.append(weapon)
+#         break
+#     elif answer in ['zortek dual blades', 'zortek', 'blades']:
+#         print_wd('you answered zortek dual blades, nice pick!')
+#         weapon = 'zortek dual blades'
+#         player_items.append(weapon)
+#         break
+#     else: 
+#         print_wd('please input either "algonak sword" or "zortek dual blades".')
+# breakpoint
+
+#first monster fight
+# monster variables
+rand_int1 = random.randint(1, 3)
+if rand_int1 == 1:
+    monster = "goblin"
+    monster_hp = random.randint(20, 30)
+    monster_rarity = 'common'
+    monster_drop = 'goblin skull(s)'
+elif rand_int1 == 2:
+    monster = "saber-toothed wolf"
+    monster_hp = random.randint(30, 40)
+    monster_rarity = 'rare'
+    monster_drop = 'saber-tooth(s)'
+elif rand_int1 == 3:
+    monster = "giant spider"
+    monster_hp = random.randint(15, 35)
+    monster_rarity = 'uncommon'
+    monster_drop = 'spider leg(s)'
+
+# #beginning of journey
+# print_wd("lets begin our journey!")
+# print_italic(f'Marquis and {first_name} begin their journey through the mystical land of Scarsalide.')
+# print_italic('As the two walk, for miles, they realize its getting darker, and the sun is setting.')
+# print_wd(f'{first_name}, we need to find a village to stay at before we start to encounter the dangers of the night.')
+# print_italic("As they walk, they suddenly hear a growl behind them.")
+# print_italic('too late.')
+# print_wd(f'{first_name}, its a {monster_rarity} {monster}! Do we draw our weapons and fight or do we flee!? It has {monster_hp} health.')
+
+
+
+# while True:
+#     answer = input_wd('fight or flee?').lower()
+#     if answer in ['fight', 'fight it', 'FIGHT']:
+#         print_italic("you draw your weapon.")
+#         print_italic(f'The {monster} attacks!')
+
+#         # Player doesn't take damage
+#         if check_health(armor):
+#             print_italic(f"Thanks to your {armor} armor, you managed to keep your health!")
+#         # How the player takes damage
+#         else:
+#             if monster == "goblin":
+#                 monster_damage = random.randint(15,25)
+#                 player_hp -= monster_damage
+#             elif monster == "saber-toothed wolf":
+#                 monster_damage = random.randint(30,35)
+#                 player_hp -= monster_damage
+#             elif monster == "giant spider":
+#                 monster_damage = random.randint(25,30)
+#                 player_hp -= monster_damage
+#             if player_hp <= 0:
+#                 print_italic(f"The {monster} hit you!")
+#                 print_italic('You have died.')
+#                 quit()
+#             print_italic(f"The {monster} hit you! You lost {monster_damage} health. Your current health is {player_hp}.")
+
+#         if player_hp <= 0:
+#             print_italic('You have died.')
+#             quit()
+
+#         # Player attacks the monster
+#         if weapon == 'algonak sword':
+#             attack_damage = random.randint(10, 15)
+#             monster_hp -= attack_damage
+#             if monster_hp <= 0:
+#                 print_italic('With a final blow, you have defeated the monster.')
+#                 print_italic(f'the {monster} dropped 1 {monster_drop}. ')
+#                 monster_dropped += 1
+#                 player_items.append(monster_drop)
+#                 break
+#             print_italic(f"You attacked the {monster} with your {weapon} and dealt {attack_damage} damage!")
+            
+#         elif weapon == 'zortek dual blades':
+#             attack_damage = random.randint(8, 18)
+#             monster_hp -= attack_damage
+#             if monster_hp <= 0:
+#                 print_italic('With a final blow, you have defeated the monster.')
+#                 print_italic(f'the {monster} dropped 1 {monster_drop}. ')
+#                 monster_dropped += 1
+#                 player_items.append(monster_drop)
+#                 break
+#             print_italic(f'You attacked the {monster} with your {weapon} and dealt {attack_damage} damage!')
+
+#         print_italic(f"The {monster} now has {monster_hp} health.")
+
+#         if player_hp <= 0:
+#             print_italic('You have died.')
+#             quit()
+
+#         if monster_hp <= 0:
+#             print_italic('You have defeated the monster.')
+#             break
+
+#     elif answer in ['flee', 'FLEE']:
+#         print_wd('You answered flee, good choice!')
+#         print_italic(f"You begin to run away from the {monster} as fast as you can.")  
+#         print_wd(f'{first_name}, I see a village that we can seek shelter in!')
+#         print_italic(f"The {monster} is chasing you down and there's a chance you get hit.")
+
+#         if escape(armor):
+#             print_italic(f"You managed to escape the {monster}!") 
+#             break
+#         else:
+#             if monster == "goblin":
+#                 monster_damage = random.randint(15,25)
+#                 player_hp -= monster_damage
+#             elif monster == "saber-toothed wolf":
+#                 monster_damage = random.randint(30,35)
+#                 player_hp -= monster_damage
+#             elif monster == "giant spider":
+#                 monster_damage = random.randint(25,30)
+#                 player_hp -= monster_damage
+
+#             if player_hp <= 0:
+#                 print_italic('You have died.')
+#                 quit()
+
+#             print_italic(f"The {monster} hit you while you were escaping. You lost {monster_damage} health. Your current health is {player_hp}.")
+
+#             if player_hp <= 0:
+#                 print_italic('You have died.')
+#                 quit()
+#             break
+
+#     else:
+#         print_wd('Choose fight or flee quickly!')
+# breakpoint
+
+# # begining of village work
+# print_italic('you continue to the village.')
+# time.sleep(2)
+# print_wd("At the village, sleeping gives you an extra 10 health points, says Marquis.")
+# time.sleep(2)
+# print_wd(f"You can heal by purchasing food items at the villages shop. \n\nYou start with 50 coins, and can make purchases with them.\n\nYou can gain coins by trading at the trading post.")
+# print_wd('there is also a blacksmith, which you can use to upgrade your armor and weapon.')
+
+coins = 50 
+sleep_counter = 0
+player_hp = 60 
+monster_dropped += 1
+monster = 'goblin'
+weapon = 'algonak sword'
+armor = 'iron'
+first_name = 'martin'
+player_items.append(monster_dropped)
+player_items.append(monster_drop)
+player_items.append(armor)
+player_items.append(weapon)
+
+
+
+while True:
+    answer1 = input_vil("Type in MENU to access the menu: ").lower()
+    if answer1 in {"menu", "village"}:
+        print_italic("Going to the village...")
+        time.sleep(2.0)
+        print_italic("You have arrived at the village.")
+    else:
+        print_italic("Invalid response.")
+        continue
+
+    while True:
+        print_italic("\nVILLAGE MENU:\nSLEEP\nSHOP\nTRADING POST\nBLACKSMITH\nINVENTORY\nLEAVE\n")
+        village_action = input_wd("Choose an action: ").lower()
+
+        if village_action in {'leave', 'LEAVE'}:
+            print_italic("You have left the village.")
+            break
+        elif village_action in {'INVENTORY' , 'inventory'}:
+            print(player_items)
+            time.sleep(3)
+            continue 
+
+        elif village_action in {'trading post', 'trading', 'post'}:
+            print_italic("\nYou have opened the trading post, where you can trade loot for coins!")
+            while True:
+                print_italic("TRADE FOR:\nSPIDER LEG - 15 COINS\nSABER TOOTH - 25 COINS\nGOBLIN SKULL - 10 COINS\nLEAVE")
+
+                trade_item = input_wd("Choose an item to trade or type 'leave' to exit: ").lower()
+                if trade_item == 'leave':
+                    print_italic("You have left the trading post.")
+                    break
+
+                elif trade_item in {'spider leg','SPIDER LEG', 'spiderleg', 'spider', 'leg', 'LEG', 'SPIDER LEGS', 'SPIDERLEGS'}:
+                   if monster_drop == 'spider leg(s)':
+                        confirm_purchase = input_wd(f"Are you sure you would like to make this trade? (yes or no)")
+                        if confirm_purchase in {'yes','YES'}:
+                            if monster_dropped <= 0:
+                                print_italic("You do not have any spider legs to trade.")
+                            elif monster_drop == 'spider leg(s)':
+                                monster_dropped -= 1
+                                player_items.pop(monster_dropped)
+                                coins += 15
+                                print_italic(f'You now have {monster_dropped} {monster_drop}. Your new balance is {coins} coins.')
+                            else:
+                                print_italic("You do not have any spider legs to trade.")
+                        if confirm_purchase in {'no','NO'}:
+                            print_italic('trade canceled.')
+                   else:
+                        print_italic("You do not have any spider legs to trade.")
+
+                elif trade_item in {'goblin skull', 'skull', 'goblin','GOBLIN SKULL', 'SKULL', 'GOBLIN'}:
+                    if monster_drop == 'goblin skull(s)':
+                        confirm_purchase = input_wd(f"Are you sure you would like to make this trade? (yes or no.)")
+                        if confirm_purchase in {'yes','YES'}:
+                            if monster_dropped <= 0:
+                                print_italic("You do not have any goblin skulls to trade.")
+                            elif monster_drop == 'goblin skull(s)':
+                                monster_dropped -= 1
+                                player_items.pop(monster_dropped)
+                                coins += 10
+                                print_italic(f'You now have {monster_dropped} {monster_drop}. Your new balance is {coins} coins.')
+                            else:
+                                print_italic("You do not have any goblin skulls to trade.")
+                        if confirm_purchase in {'no','NO'}:
+                            print_italic('trade canceled.')
+                    else:
+                        print_italic('You do not have any goblin skulls to trade.')
+
+                elif trade_item in {'saber tooth','TOOTH', 'tooth', 'TEETH', 'SABER TOOTH', 'SABER'}:
+                    if monster_drop == 'saber-tooth(s)':
+                        confirm_purchase = input_wd(f"Are you sure you would like to make this trade? (yes or no.)")
+                        if confirm_purchase in {'yes','YES'}:
+                            if monster_dropped <= 0:
+                                print_italic("You do not have any saber teeth to trade.")
+                            elif monster_drop == 'saber-tooth(s)':
+                                monster_dropped -= 1
+                                player_items.pop(monster_dropped)
+                                coins += 15
+                                print_italic(f'You now have {monster_dropped} {monster_drop}. Your new balance is {coins} coins.')
+                            else:
+                                print_italic("You do not have any saber teeth to trade.")
+                        if confirm_purchase in {'NO','no'}:
+                            print_italic('trade canceled.')
+                    else:
+                        print_italic("You do not have any saber-teeth to trade.")
+
+
+                else:
+                    print_italic('Please input a valid response.')
+        elif village_action in {'sleep','SLEEP'}:
+            print_italic("Entering bedroom...")
+            if sleep_counter >= 1:
+                print_italic('you can only sleep once at the village during a trip.')
+            else:
+                if player_hp >= 100:
+                    print_italic(f"You are already at full health, you can't gain any more.")
+                else:
+                    time.sleep(3)
+                    player_hp += 10 
+                    sleep_counter += 1
+                    print_italic(f'You have gained 10 hp, your current hp is {player_hp}.')
+
+        elif village_action in {'shop','SHOP'}:
+            print_italic("\nYou have entered the shop.")
+            while True:
+                print_italic("""BANANA - 10 coins - +10 hp\nCOCONUT - 15 coins - +20 hp\nSTEAK - 30 coins - FULL HP\nLEAVE""")
+
+                shop_item = input_wd("Choose an item to purchase or type 'leave' to exit: ").lower()
+
+                if shop_item == 'leave':
+                    break
+
+                elif shop_item == 'banana':
+                    if player_hp == 100:
+                        print_italic('You are already at full health.')
+                        continue
+                    if coins < 10:
+                        print_italic('Invalid funds. Get more coins!')
+                    if coins >= 10:
+                        confirm_purchase = input_wd(f"Are you sure you would like to purchase this item for 10 coins? You have {coins} coins. (yes/no): ").lower()
+                        if confirm_purchase in {'yes','YES'}:
+                            if player_hp < 100:
+                                player_hp += 10
+                                if player_hp >= 100:
+                                    player_hp = 100
+                                coins -= 10 
+                                print_italic("You have purchased and ate the banana.")
+                                print_italic(f"Your current health is {player_hp}.")
+                                print_italic(f"You have {coins} coins left.")
+                                continue
+                    elif confirm_purchase in {'no','NO'}:
+                        print_italic('purchase canceled.')
+                    else:
+                        print_italic('invalid response.')
+
+
+                elif shop_item == 'coconut':
+                    if player_hp == 100:
+                        print_italic('You are already at full health.')
+                        continue
+                    if coins < 15:
+                        print_italic('Invalid funds. Get more coins!')
+                    if coins >= 15:
+                        confirm_purchase = input_wd(f"Are you sure you would like to purchase this item for 15 coins? You have {coins} coins. (yes/no): ").lower()
+                        if confirm_purchase in {'yes','YES'}:
+                            if player_hp < 100:
+                                player_hp += 20
+                                if player_hp >= 100:
+                                    player_hp = 100
+                                coins -= 15 
+                                print_italic("You have purchased and ate the coconut.")
+                                print_italic(f"Your current health is {player_hp}.")
+                                print_italic(f"You have {coins} coins left.")
+                                continue
+                        elif confirm_purchase in {'no','NO'}:
+                            print_italic('purchase canceled.')
+                        else:
+                            print_italic('invalid response.')
+                  
+                elif shop_item == 'steak':
+                    if player_hp == 100:
+                        print_italic('You are already at full health.')
+                        continue
+                    if coins < 50:
+                        print_italic('Invalid funds. Get more coins!')
+                    if coins >= 50:
+                        confirm_purchase = input_wd(f"Are you sure you would like to purchase this item for 50 coins? You have {coins} coins. (yes/no): ").lower()
+                        if confirm_purchase in {'yes','YES'}:
+                            if player_hp < 100:
+                                player_hp = 100
+                                if player_hp >= 100:
+                                    player_hp = 100
+                                coins -= 50
+                                print_italic("You have purchased and ate the steak.")
+                                print_italic(f"You now have full health!")
+                                print_italic(f"You have {coins} coins left.")
+                                continue
+                        elif confirm_purchase in {'no','NO'}:
+                            print_italic('purchase canceled.')
+                        else:
+                            print_italic('invalid response.')
+                else:
+                    print_italic('Invalid input. Please try again.')
+
+
+
+#########################
+
+
+
+        
+        
+        elif village_action in {'blacksmith','BLACKSMITH'}:
+            print_italic('welcome to the blacksmiths hut! upgrade and purchase your armor and weapons here!')
+            while True:
+                print_italic("""ARMOR\nWEAPONS\nLEAVE""")
+                blacksmith_action = input_wd("Choose an action: ").lower()
+                if blacksmith_action in {'leave','LEAVE'}:
+                    print_italic('you have left the bladesmith.')
+                    break
+            
+                elif blacksmith_action in {'ARMOR','armor'}:
+                    print_italic("""\nUPGRADE ARMOR\nPURCHASE ARMOR\nLEAVE""")
+                    armor_action = input_wd("Choose an action: ").lower()
+                    
+                    if armor_action in {'leave','LEAVE'}:
+                        continue
+                    if armor_action in {'upgrade armor','UPGRADE ARMOR','upgrade','UPGRADE'}:
+                        print_italic('what armor would you like to upgrade?')
+                        print_italic(f'your current armor that is equipped is {armor}.')
+                        print_italic('here is your inventory.')
+                        print_italic(player_items)
+                        upgrade_armor = input_wd('choose an armor to upgrade: ').lower()
+                        
+                        
+                        
+                    if armor_action in {'purchase armor','PURCHASE ARMOR','purchase','PURCHASE'}:
+                        print_italic('what armor would you like to purchase?')
+                        print_italic(f'your current armor that is equipped is {armor}.')
+                        print_italic(armor_list)
+                        purchase_armor = input_wd('choose an armor to purchase: ')
+                        if purchase_armor in {'leather','LEATHER'}:
+                            if armor == "leather armor":
+                                print_italic('you already have this armor purchased.')
+                            elif armor != "leather armor":
+                                if coins <= 35:
+                                    print_italic('you do not have enough coins to purchase this armor.')
+                                if coins >= 35:
+                                    print_italic(f'are you sure you would like to purchase this armor? it costs 35 coins. You currently have {coins} coins.')
+                                    confirm_purchase = input_wd('yes or no?')
+                                    if confirm_purchase in ('yes','YES'):
+                                        coins -= 35
+                                        player_items.append('leather')
+                                        print_italic(f'you have purchased leather armor. You now have {coins} coins left.')
+                                    if confirm_purchase in (['no','NO']):
+                                        print_italic('purchase canceled.')
+                            
+                        if purchase_armor in {'iron','IRON'}:
+                            if armor == 'iron':
+                                print_italic('you already have this armor purchased.')
+                    else:
+                        print_italic('invalid response')
+                        
+
+
+                elif blacksmith_action in {'WEAPONS','weapons','weapon','WEAPON'}:
+                    print_italic("""\nUPGRADE WEAPONS\nPURCHASE WEAPONS\nLEAVE""")
+                    
+                    weapon_action = input_wd("Choose an action: ").lower()
+                    if weapon_action in ('leave','LEAVE'):
+                        continue
+                        
+                    if weapon_action in {'upgrade weapons','UPGRADE WEAPONS','upgrade','UPGRADE'}:
+                        print_italic(f'what weapon would you like to upgrade?')
+                        print_italic(f'your current weapon that is equipped is {weapon}.')
+                        print_italic('here is your inventory. ')
+                        print_italic(player_items)
+                        
+                    
+                    if weapon_action in {'purchase weapons','PURCHASE WEAPONS','purchase','PURCHASE'}:
+                        print_italic('what weapon would you like to purchase?')
+                        print_italic('ALGONAK SWORD - 10-15 damage - 20 coins\nZORTEK DUAL BLADES - 8-18 damage - 20 coins\nKATANA - 20-25 damage - 30 coins\nLEAVE')
+                        print_italic(f'your current weapon that is equipped is {weapon}.')
+                        print_italic('here is your inventory. ')
+                        print_italic(player_items)
+                else:
+                    print_italic('invalid response.')
+                    continue
+                        
+
+
+        
+    
+        else:
+            print_italic('Invalid input. Please try again.')
+            
+    break
+print_italic('Now, we can continue on our journey, says Marquis.')
+
+
+        
+
+        
+# bugs - add casino store player items in a dictionary - add blades smith
