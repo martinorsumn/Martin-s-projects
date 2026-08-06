@@ -1,1 +1,20 @@
-Hello! this is a collection of my personal projects that I have been working on. enjoy!
+Hi, I'm Martin!
+
+Computer Science student at the University of Maryland.
+
+## Languages
+
+- Java
+- Python
+
+## Interests
+
+- Software Engineering
+- AI
+- Game Development
+
+## Currently Learning
+
+- Java
+- Data Structures
+- Algorithms
