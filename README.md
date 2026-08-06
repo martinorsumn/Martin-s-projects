@@ -18,3 +18,6 @@ Computer Science student at the University of Maryland.
 - Java
 - Data Structures
 - Algorithms
+
+## Projects
+- [Scarsalide Adventure Game](https://github.com/martinorsumn/Scarsalide-Adventure-Game) — Python text adventure
